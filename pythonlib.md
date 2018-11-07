@@ -41,3 +41,18 @@ check the python executable path:
 where python or import sys; sys.executable
 deactivate --> will leave venv
 ```
+Before you will start installing any packages
+```
+>>> pip list
+Package    Version
+---------- -------
+pip        18.1
+setuptools 40.5.0
+wheel      0.32.2
+
+>>> pip freeze ---> no dependicies installed, will output nothing
+```
+
+
+
+

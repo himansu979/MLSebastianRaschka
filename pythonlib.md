@@ -27,7 +27,8 @@ To know the location of python executable
 ```
 import sys; sys.executable --> 'C:\\Users\Local\\Continuum\\anaconda3\\python.exe'
 ```
-Creating python virtual environment
+Creating python virtual environment :
+https://packaging.python.org/guides/installing-using-pip-and-virtualenv/
 ```
 pip install virtualenv
 virtualenv --version ---> 16.1.0

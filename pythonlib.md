@@ -17,6 +17,8 @@ conda list request ---> give individual package info, both through conda and pip
 To install a python package through pip
 ```
 pip --help
+pip --version --> 18.1
+pip install --upgrade pip --> Requirement already up-to-date: pip 
 pip install urllib3 --> Requirement already satisfied
 pip install --upgrade urllib3 --> Requirement already up-to-date
 pip uninstall flask --> only uninstall flask, not its dependencies

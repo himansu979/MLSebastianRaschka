@@ -14,10 +14,14 @@ pip list
 conda list
 conda list request ---> give individual package info, both through conda and pip
 ```
-To install a python package
+To install a python package through pip
 ```
+pip --help
 pip install urllib3 --> Requirement already satisfied
 pip install --upgrade urllib3 --> Requirement already up-to-date
+pip uninstall flask --> only uninstall flask, not its dependencies
+pip list
+pip freeze
 ```
 To know the location of python executable
 ```

@@ -3,7 +3,7 @@ To know python version, packages installed.
 ```
 python --help or python -h
 python --version or python -V
-python freeze > requirement2.txt
+pip freeze > requirement2.txt
 pip install -r requirements.txt
 python
 >>> import requests; requests.__version__

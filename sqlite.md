@@ -54,14 +54,18 @@ Use ".open FILENAME" to reopen on a persistent database.
 >sqlite3 data.db
 >.databases --> shows path of data.db
 >.tables  --> shows table name
+>create table IF NOT EXISTS users (id INTEGER PRIMARY KEY, username text, password text);
 >.schema users --> CREATE TABLE users (id INTEGER PRIMARY KEY, username text, password text);
 >select * from users;
 >insert into users values (1, "hari", "abcd");
 >select * from users where username="hari";
 
->delete from users; --> delete all the records
+>delete from users; --> delete all the records, but table exists
+>drop table users; --> table deleted, check by .tables
 >.exit
 ```
+
+if data.db doesn't exist, then just open it and create a table. new database will be created.
 
 
 

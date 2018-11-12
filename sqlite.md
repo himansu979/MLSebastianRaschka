@@ -41,6 +41,8 @@ con.close()
 ```
 
 ### SQLite3 from command line
+Reference : https://www.tutorialspoint.com/sqlite/index.htm
+
 ```
 >sqlite3
 SQLite version 3.23.1 2018-04-10 17:39:29
@@ -48,10 +50,12 @@ Enter ".help" for usage hints.
 Connected to a transient in-memory database.
 Use ".open FILENAME" to reopen on a persistent database.
 
->.databases
->.tables
-> select * from users;
-
+>.databases --> shows path of data.db
+>.tables  --> shows table name
+>.schema users --> CREATE TABLE users (id INTEGER PRIMARY KEY, username text, password text);
+>select * from users;
+>insert into users values (1, "hari", "abcd");
+>select * from users where username="hari";
 >.exit
 ```
 

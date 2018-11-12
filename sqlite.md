@@ -1,5 +1,6 @@
-#### 1. Connect to sqlite3 database
+#### SQLite3 database connection from Python
 ```
+#### 1. connect to sqlit3 data
 import sqlite3
 con = sqlite3.connect("data.db")
 cursor = con.cursor()
@@ -50,12 +51,15 @@ Enter ".help" for usage hints.
 Connected to a transient in-memory database.
 Use ".open FILENAME" to reopen on a persistent database.
 
+>sqlite3 data.db
 >.databases --> shows path of data.db
 >.tables  --> shows table name
 >.schema users --> CREATE TABLE users (id INTEGER PRIMARY KEY, username text, password text);
 >select * from users;
 >insert into users values (1, "hari", "abcd");
 >select * from users where username="hari";
+
+>delete from users; --> delete all the records
 >.exit
 ```
 

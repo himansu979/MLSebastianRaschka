@@ -48,6 +48,10 @@ Enter ".help" for usage hints.
 Connected to a transient in-memory database.
 Use ".open FILENAME" to reopen on a persistent database.
 
+>.databases
+>.tables
+> select * from users;
+
 >.exit
 ```
 

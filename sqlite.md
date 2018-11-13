@@ -53,6 +53,22 @@ Use ".open FILENAME" to reopen on a persistent database.
 
 >sqlite3 data.db
 >.databases --> shows path of data.db
+```
+
+check **sqlite_master** database
+```
+>.schema sqlite_master 
+CREATE TABLE sqlite_master (
+  type text,
+  name text,
+  tbl_name text,
+  rootpage integer,
+  sql text
+);
+>select * from from sqlite_master;
+table|users|users|2|CREATE TABLE users (id INTEGER PRIMARY KEY, username text, password text)
+> select * from sqlite_master where type="table"; --> show all tables in the database
+
 >.tables  --> shows table name
 >create table IF NOT EXISTS users (id INTEGER PRIMARY KEY, username text, password text);
 >.schema users --> CREATE TABLE users (id INTEGER PRIMARY KEY, username text, password text);

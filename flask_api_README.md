@@ -38,3 +38,18 @@ os.environ["FLASK_ENV"] = "development"
  * Debugger PIN: 300-022-090
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
+
+### Install the packages
+
+```
+pip install Flask            ----> for web api 
+pip install Flask-JWT        ---> for authentication
+pip install Flask-RESTful    ---> API mapping
+pip install Flask-SQLAlchemy ---> easier to work with SQLAlchemy
+```
+
+
+
+
+
+

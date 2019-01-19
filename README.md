@@ -4,6 +4,10 @@ This repository is a collection of jupyter notebboks from the book: Python Machi
 
 Please follow the link below to individual notebooks, which contains additional details of code.
 
+----
+
+### Link to Chapter details
+
 1. Machine Learning - Giving Computers the Ability to Learn from Data [introduction](./Ch_01.ipynb)
 
 2. Training Machine Learning Algorithms for Classification <br>
@@ -14,3 +18,17 @@ Please follow the link below to individual notebooks, which contains additional 
     [[Simple Linear Regression](./Ch10_LinearRegression/Ch10_LinearRegression.ipynb)]  <br>
     [[Linear Regression using Scikit-Learn](./Ch10_LinearRegression/Ch10_scikitlearn.ipynb)]  <br>
     [[Nonlinear Regression Analysis](./Ch10_LinearRegression/Ch10_Regression_nonlinear.ipynb)]
+    
+    
+  
+  
+  
+|     |   Chapter                                                          |     notebook                       |
+|:----|--------------------------------------------------------------------|:----------------------------------:|
+|  1  | Machine Learning - Giving Computers the Ability to Learn from Data |  [Introduction]                      |
+|  2  | Training Machine Learning Algorithms for Classification            |                                    |                          
+|  10 | Predicting Continuous Target Variables with Regression Analysis    |                                    |               
+
+
+[//]: # (Reference to chapters)
+[Introduction]: ./Ch_01.ipynb

@@ -23,12 +23,14 @@ Please follow the link below to individual notebooks, which contains additional 
   
   
   
-|     |   Chapter                                                          |     notebook                       |
-|:----|--------------------------------------------------------------------|:----------------------------------:|
-|  1  | Machine Learning - Giving Computers the Ability to Learn from Data |  [Introduction]                      |
-|  2  | Training Machine Learning Algorithms for Classification            |                                    |                          
-|  10 | Predicting Continuous Target Variables with Regression Analysis    |                                    |               
+|     |   Chapter                                                          |     notebook                              |
+|:----|--------------------------------------------------------------------|:-----------------------------------------:|
+|  1  | Machine Learning - Giving Computers the Ability to Learn from Data |  [Introduction]                           |
+|  2  | Training Machine Learning Algorithms for Classification            |  [AdaLine], [Stochastic Gradient Descent]  | 
+|  10 | Predicting Continuous Target Variables with Regression Analysis    |                                           |               
 
 
 [//]: # (Reference to chapters)
 [Introduction]: ./Ch_01.ipynb
+[AdaLine]: ./Ch02_Perceptron/Ch02_AdaLine.ipynb
+[Stochastic Gradient Descent]: ./Ch02_Perceptron/Ch02_SGD.ipynb

@@ -69,11 +69,11 @@ pip install Flask-SQLAlchemy ---> easier to work with SQLAlchemy
 ```
 
 ### Flask Tutorial Resources
-https://pythonspot.com/flask-web-app-with-python/
-https://www.tutorialspoint.com/flask/
-https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world/page/10
-https://medium.freecodecamp.org/how-to-build-a-web-application-using-flask-and-deploy-it-to-the-cloud-3551c985e492
-
+https://pythonspot.com/flask-web-app-with-python/ <br>
+https://www.tutorialspoint.com/flask/ <br>
+https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world/page/10 <br>
+https://medium.freecodecamp.org/how-to-build-a-web-application-using-flask-and-deploy-it-to-the-cloud-3551c985e492 <br>
+https://damyanon.net/post/flask-series-structure/
 
 
 

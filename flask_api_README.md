@@ -28,6 +28,19 @@ os.environ["FLASK_ENV"] --> keyError
 os.environ["FLASK_ENV"] = "development"
 ```
 
+Directory structure for running Flask app as a python package
+
+```
+myFlaskUI/
+  .flaskenv
+  run_app.py
+  venv/
+  myFlaskApp/
+    __init__.py
+    routes.py
+    templates/
+```
+
 ```
 mkdir mysampleUI
 virtualenv venv ---> create virtual environment

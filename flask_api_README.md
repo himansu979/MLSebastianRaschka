@@ -75,8 +75,13 @@ import os; os.environ.get("FLASK_ENV") --> will give nothing
 os.environ["FLASK_ENV"] --> keyError
 os.environ["FLASK_ENV"] = "development"
 ```
-
-
+How to get the dictionary from `os.environ`
+```
+type(os.environ) ---> <class 'os._Environ'>
+dict(os.environ).keys() --> wrap it around dict() will give the dictionary
+dict(os.environ)["USERNAME"]
+os.environ["USERNAME"]
+```
 
 
 ```
